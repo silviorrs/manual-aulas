@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Produção de Videoaulas e Configuração do Moodle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <!-- Cabeçalho -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#inicio" class="brand-mark">
+        <div class="brand-logo-icon" aria-hidden="true">M</div>
+        <span>Manual Docente</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegação do manual">
+        <a href="#secao-moodle" class="nav-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          1. Moodle
+        </a>
+        <a href="#secao-aulas" class="nav-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+          2. Videoaulas
+        </a>
+        <a href="#exemplos-videos" class="nav-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2"/></svg>
+          Exemplos
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="manual-hero">
+    <div class="hero-inner">
+      <h1 class="manual-title">Produção de Videoaulas e Configuração do Moodle</h1>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <main class="main-content">
+
+    <!-- SEÇÃO 1: CONFIGURAÇÕES DO MOODLE -->
+    <section id="secao-moodle" class="section-block">
+      <header class="section-header">
+        <div>
+          <div class="section-title-wrap">
+            <h2 class="section-title">Configurações do Moodle</h2>
+          </div>
+        </div>
+      </header>
+
+      <div class="cards-stack">
+
+        <!-- Item 1.1 -->
+        <article class="guideline-card" data-search="visual moderno formato blocos configurações cores layout">
+          <div class="card-top">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Interface & Usabilidade</span>
+              </div>
+              <h3 class="card-heading">Visual moderno com Formato Blocos</h3>
+            </div>
+          </div>
+          <div class="image-pair">
+            <img src="moodle0a.png" alt="Exemplo de visual moderno da disciplina em formato de blocos">
+            <img src="moodle0b.png" alt="Exemplo de organização visual moderna em blocos">
+          </div>
+          <p class="card-body-text">
+            Para uma apresentação contemporânea e visualmente equilibrada, adote o formato de navegação modular por blocos temáticos:
+          </p>
+          <div class="breadcrumb-path">
+            <span>Configurações</span>
+            <span class="arrow">→</span>
+            <span>Formato do Curso</span>
+            <span class="arrow">→</span>
+            <span>Caixa de seleção "Formato"</span>
+            <span class="arrow">→</span>
+            <span class="highlight-param">Formato Blocos</span>
+          </div>
+          <p class="card-body-text">
+            Nessa tela, é possível definir a <strong>paleta de cores dos blocos</strong>, alinhando a estética à identidade visual da instituição ou área do conhecimento.
+          </p>
+          <img src="fortatoBlocos1.png" alt="Configuração do formato em blocos no Moodle" class="card-image">
+        </article>
+
+        <!-- Item 1.2 -->
+        <article class="guideline-card" data-search="imagem abertura disciplina 720x420 pixels capa enquadramento descrição">
+          <div class="card-top">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Identidade do Curso</span>
+              </div>
+              <h3 class="card-heading">Imagem de abertura da disciplina</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            No menu <strong>Configurações</strong>, escolha uma imagem de abertura representativa, que identificará a disciplina na listagem geral de cursos e no painel do estudante.
+          </p>
+          <div class="breadcrumb-path">
+            <span>Menu Configurações</span>
+            <span class="arrow">→</span>
+            <span>Descrição</span>
+            <span class="arrow">→</span>
+            <span class="highlight-param">Imagem do Curso</span>
+          </div>
+          <p class="card-body-text">
+            <strong>Dimensão de referência:</strong> <span class="highlight-param">720 × 420 pixels</span>.
+          </p>
+          <img src="aberturaDisciplina2.png" alt="Configuração da imagem de abertura da disciplina" class="card-image">
+          <img src="descricao3.png" alt="Campo de descrição com upload de imagem" class="card-image">
+          <div class="callout-box info">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <div>
+              Após o upload, acesse a tela de entrada/painel geral de cursos para validar o enquadramento, proporção e corte visual em diferentes tamanhos de tela.
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 1.3 -->
+        <article class="guideline-card" data-search="tela inicial disciplina modo edição bloco 360x266 pixels cinza cronograma semanal">
+          <div class="card-top">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Navegação Estruturada</span>
+              </div>
+              <h3 class="card-heading">Tela inicial da disciplina e blocos semanais</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            Acessada pelo menu <strong>"Curso"</strong> com o <strong>modo de edição habilitado</strong>. Ao clicar na imagem ao lado do bloco, é possível selecionar um ícone pré-existente ou carregar uma arte própria via <em>"Carregar uma nova Imagem"</em>.
+          </p>
+          <ul class="card-body-text" style="padding-left: 1.25rem;">
+            <li><strong>Dimensões para capas dos blocos:</strong> cada bloco aceita imagem customizada (<span class="highlight-param">360 × 266 pixels</span>).</li>
+            <li><strong>Nomenclatura personalizada:</strong> substituir o título padrão ("Bloco 1") pelo nome do tópico (ex.: <em>Instruções Iniciais</em>, <em>Comandos Básicos</em>).</li>
+          </ul>
+          <img src="imagemBloco4.png" alt="Edição individual de um bloco com imagem customizada" class="card-image">
+          <img src="imagemBlocosPadrao5.png" alt="Visão padrão dos blocos com imagens temáticas" class="card-image">
+          <img src="imagemPrincipalInterna6.png" alt="Imagem principal interna configurada no bloco" class="card-image">
+          <div class="callout-box success">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            <div>
+              <strong>Visualização sob a ótica do aluno:</strong> com modo de edição desativado, blocos com liberação temporal futura aparecem em <strong>tons de cinza</strong>. Conforme as semanas avançam, o bloco torna-se colorido e disponível.
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 1.4 -->
+        <article class="guideline-card" data-search="configurando conteúdo editar bloco vídeo da semana incorporado">
+          <div class="card-top">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Design Instrucional</span>
+              </div>
+              <h3 class="card-heading">Configurando o conteúdo de cada bloco</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            A inclusão de recursos e atividades segue o fluxo consolidado, acionado pelo menu <strong>"Editar Bloco"</strong>.
+          </p>
+          <p class="card-body-text">
+            <strong>Exemplo recomendado:</strong> inserir o vídeo principal da semana com uma síntese introdutória clara. Ao clicar, o vídeo é reproduzido diretamente no ambiente.
+          </p>
+          <img src="configDisciplina7.png" alt="Configuração do conteúdo interno de um bloco" class="card-image">
+          <div class="callout-box info">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <div>
+              <em>Observação:</em> este modelo de organização visual é uma sugestão de design instrucional testada e validada, podendo ser adaptada às particularidades de cada ementa.
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 1.5 -->
+        <article class="guideline-card" data-search="formato exercícios correção automática acessibilidade leitores tela arrastar soltar múltipla escolha">
+          <div class="card-top">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Avaliação & Acessibilidade</span>
+              </div>
+              <h3 class="card-heading">Formato dos exercícios e acessibilidade digital</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            Em turmas com elevado número de estudantes, <strong>questões com correção automática</strong> do Moodle otimizam o feedback formativo. Diversifique a tipologia:
+          </p>
+          <ul class="card-body-text" style="padding-left: 1.25rem;">
+            <li>Múltipla escolha e resposta única;</li>
+            <li>Preenchimento de lacunas e completar palavras-chave;</li>
+            <li>Associação de colunas e arrastar/soltar no texto ou imagem.</li>
+          </ul>
+          <img src="formatoExerc8a.png" alt="Exemplo de exercício com múltipla escolha" class="card-image">
+          <img src="formatoExerc8b.png" alt="Exemplo de exercício arrastar e soltar" class="card-image">
+          <img src="formatoExerc8c.png" alt="Exemplo de exercício com acessibilidade" class="card-image">
+          <div class="callout-box warning">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>
+            <div>
+              <strong>Atenção à acessibilidade (WCAG):</strong> leitores de tela (NVDA, JAWS) não operam adequadamente com <em>"arrastar e soltar"</em>. Para inclusão total, <strong>disponibilize sempre uma versão equivalente em múltipla escolha</strong>.
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: PREPARAÇÃO DAS AULAS -->
+    <section id="secao-aulas" class="section-block">
+      <header class="section-header">
+        <div>
+          <div class="section-title-wrap alt">
+            <h2 class="section-title">Preparação das Aulas</h2>
+          </div>
+        </div>
+      </header>
+
+      <div class="cards-stack">
+
+        <!-- Item 2.1 -->
+        <article class="guideline-card" data-search="dicas gerais roteiro vídeos curtos 4 a 10 minutos 1 hora semanal avaliação duas tentativas">
+          <div class="card-top">
+            <div class="card-icon-box teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Planejamento Didático</span>
+              </div>
+              <h3 class="card-heading">Dicas gerais de planejamento e ritmo</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            O sucesso da videoaula decorre da clareza da mensagem e do respeito ao tempo cognitivo do aluno:
+          </p>
+          <ul class="card-body-text" style="padding-left: 1.25rem;">
+            <li><strong>Roteirização prévia:</strong> elabore um roteiro sintético com os tópicos-chave antes de gravar.</li>
+            <li><strong>Fracionamento (microlearning):</strong> blocos curtos de <span class="highlight-param">4 a 10 minutos</span> cada.</li>
+            <li><strong>Teto semanal:</strong> evite ultrapassar <strong>1 hora total de vídeo por semana</strong>. Volumes exagerados geram sobrecarga e abandono.</li>
+            <li><strong>Estratégia avaliativa:</strong> <em>Atividades Semanais (AS)</em> ao longo das 8 ou 9 semanas, com <span class="highlight-param">duas tentativas</span>.</li>
+          </ul>
+          <div class="callout-box warning">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+            <div>
+              <strong>Perfil pós-graduação:</strong> construa enunciados objetivos, sem "pegadinhas". Avaliações excessivamente punitivas elevam a evasão.
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 2.2 -->
+        <article class="guideline-card" data-search="áudio ambiente gravação microfone ruído eco teste legibilidade velocidade fala">
+          <div class="card-top">
+            <div class="card-icon-box teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Qualidade Técnica</span>
+              </div>
+              <h3 class="card-heading">Áudio e ambiente de gravação</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            O <strong>áudio é o elemento mais crítico</strong>: recursos visuais simples com voz cristalina oferecem excelente aprendizado, enquanto imagem em alta resolução com áudio ruidoso torna a aula improdutiva.
+          </p>
+          <div class="callout-box info">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            <div>
+              <strong>Protocolo do Vídeo de Teste (1 min):</strong> antes de gravar, faça um teste e avalie com fones:
+              <div style="margin-top: 0.4rem; display: flex; flex-wrap: wrap; gap: 0.35rem;">
+                <span class="card-badge">Volume da voz</span>
+                <span class="card-badge">Ausência de ruídos</span>
+                <span class="card-badge">Sensibilidade do mic</span>
+                <span class="card-badge">Legibilidade do código</span>
+                <span class="card-badge">Tamanho das fontes</span>
+                <span class="card-badge">Resolução</span>
+                <span class="card-badge">Velocidade da fala</span>
+              </div>
+            </div>
+          </div>
+          <p class="card-body-text" style="margin-top: 0.85rem;">
+            Escolha locais silenciosos, evitando cômodos vazios com eco. Um bom <strong>microfone dedicado</strong> eleva expressivamente a qualidade.
+          </p>
+        </article>
+
+        <!-- Item 2.3 -->
+        <article class="guideline-card" data-search="ferramentas gravação obs studio loom clipchamp zoom videoscribe exemplos vídeos youtube">
+          <div class="card-top">
+            <div class="card-icon-box teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Tecnologias & Softwares</span>
+              </div>
+              <h3 class="card-heading">Ferramentas para gravação de vídeos</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            <strong>OBS Studio (Recomendação Principal):</strong> solução padrão da indústria para gravação de alta performance — tela, webcam com recorte e áudio sincronizados. Software <em>livre, gratuito e multiplataforma</em>.
+          </p>
+          <p class="card-body-text"><strong>Alternativas úteis:</strong></p>
+          <ul class="card-body-text" style="padding-left: 1.25rem;">
+            <li><strong>Loom:</strong> gravações curtas e compartilhamento rápido via link;</li>
+            <li><strong>Clipchamp:</strong> gravação direta de tela e edição ágil (Windows);</li>
+            <li><strong>Zoom / MS Teams:</strong> gravações pontuais usando salas individuais;</li>
+            <li><strong>VideoScribe:</strong> animações didáticas no formato "whiteboard".</li>
+          </ul>
+
+          <!-- Sub-bloco: Exemplos de Vídeos -->
+          <div id="exemplos-videos" class="video-subblock">
+            <div class="video-subblock-header">
+              <h4 class="video-subblock-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect width="15" height="14" x="1" y="5" rx="2"/></svg>
+                Exemplos de Vídeos
+              </h4>
+              <span class="card-badge">Demonstrações no YouTube</span>
+            </div>
+
+            <div class="video-grid">
+              <div class="video-card">
+                <div class="video-embed">
+                  <iframe src="https://www.youtube-nocookie.com/embed/LhaMzyiyfrg" title="Exemplo de vídeo criado com o OBS" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-card-body">
+                  <div>
+                    <h5 class="video-card-name">Exemplo de vídeo criado com o OBS</h5>
+                    <p class="video-card-desc">Demonstração de captura simultânea de slides, câmera em primeiro plano e áudio equalizado.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-card">
+                <div class="video-embed">
+                  <iframe src="https://www.youtube-nocookie.com/embed/NHGPpOBuTxw" title="Exemplo de vídeo criado com VideoScribe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-card-body">
+                  <div>
+                    <h5 class="video-card-name">Exemplo de vídeo criado com VideoScribe</h5>
+                    <p class="video-card-desc">Animações didáticas no formato "whiteboard" produzidas com o VideoScribe.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 2.4 -->
+        <article class="guideline-card" data-search="publicação vídeos moodle 128 mb youtube não listado incorporar embed títulos padronizados">
+          <div class="card-top">
+            <div class="card-icon-box teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m16 16-4-4-4 4"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Armazenamento & Streaming</span>
+              </div>
+              <h3 class="card-heading">Publicação e incorporação dos vídeos</h3>
+            </div>
+          </div>
+          <p class="card-body-text">Duas vias complementares de armazenamento:</p>
+          <ul class="card-body-text" style="padding-left: 1.25rem;">
+            <li><strong>Diretamente no Moodle:</strong> arquivos <span class="highlight-param">.mp4</span> com limite de até <span class="highlight-param">128 MB</span>.</li>
+            <li><strong>No YouTube (conta institucional):</strong> configure a visibilidade como <span class="highlight-param">"Não listado"</span> (Unlisted). O vídeo fica restrito a quem possuir o link.</li>
+          </ul>
+          <div class="callout-box success">
+            <svg class="callout-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <div>
+              <strong>Incorporação Direta (Embed):</strong> publique no YouTube e insira a URL de mídia no Moodle. O reprodutor fica dentro da sala virtual, sem redirecionamento.
+            </div>
+          </div>
+          <p class="card-body-text" style="margin-top: 0.75rem;">
+            <em>Padronização:</em> adote títulos homogêneos (ex.: <code>[NomeDisciplina] Sem01 — Aula 02: Fundamentos</code>).
+          </p>
+        </article>
+
+        <!-- Item 2.5 -->
+        <article class="guideline-card" data-search="materiais de apoio slides apostilas datasets tutoriais documentação complementar">
+          <div class="card-top">
+            <div class="card-icon-box teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <div class="card-header-text">
+              <div class="card-meta-line">
+                <span class="card-badge">Aprofundamento Didático</span>
+              </div>
+              <h3 class="card-heading">Materiais de apoio e literatura complementar</h3>
+            </div>
+          </div>
+          <p class="card-body-text">
+            A videoaula é o ponto de partida. Para consolidação do conhecimento e autonomia de pesquisa, disponibilize materiais integrados ao bloco semanal:
+          </p>
+          <div class="resources-grid">
+            <div class="resource-item">
+              <strong>Apresentações e Textos</strong>
+              <p>Slides em PDF, apostilas e notas de aula preparadas pelo docente.</p>
+            </div>
+            <div class="resource-item">
+              <strong>Documentação Oficial</strong>
+              <p>Manuais técnicos, links para bibliotecas de software e guias de boas práticas.</p>
+            </div>
+            <div class="resource-item">
+              <strong>Recursos Práticos</strong>
+              <p>Tutoriais com passo a passo, repositórios com código-fonte e datasets reais.</p>
+            </div>
+            <div class="resource-item">
+              <strong>Conteúdo Complementar</strong>
+              <p>Artigos científicos, referências bibliográficas e vídeos extras opcionais.</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <p class="footer-brand">Manual de apoio para docentes — UTFPR</p>
+        <p class="footer-note">
+          Universidade Tecnológica Federal do Paraná • Material instrucional de apoio à docência e produção audiovisual.
+        </p>
+      </div>
+      <a href="#inicio" class="btn-top">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+        Voltar ao topo
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
